@@ -56,7 +56,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -107,7 +107,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -158,7 +158,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -172,6 +172,78 @@ DocumentPath=ClockPCB 2026-07-09 16-53-49.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB-RoundHoles-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB-RoundHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB-SlotHoles-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.G1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.G2
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GM
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for VFD_Clock\ClockPCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for VFD_Clock\Design Rule Check - ClockPCB.html
 DItemRevisionGUID=
 
@@ -418,22 +490,22 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Fax
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=Final
@@ -442,48 +514,56 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=C:\Users\Public\Documents\Altium\VFD_Clock_Hardware\PCB\ClockPCB.PcbDoc
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=SBQUGWGS|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1|PlotBoardProfile=True|PlotBoardProfileFileName=ClockPCB.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=ClockPCB.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=ClockPCB.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=ClockPCB.GBO|UserLayerName.Caption1=ClockPCB.GTP|UserLayerName.Caption10=ClockPCB.GBS|UserLayerName.Caption11=ClockPCB.G2|UserLayerName.Caption12=ClockPCB.GM1|UserLayerName.Caption13=ClockPCB.GBL|UserLayerName.Caption14=ClockPCB.GM15|UserLayerName.Caption15=ClockPCB.GTL|UserLayerName.Caption16=ClockPCB.GBP|UserLayerName.Caption2=ClockPCB.GTO|UserLayerName.Caption3=ClockPCB.GTS|UserLayerName.Caption4=ClockPCB.GM13|UserLayerName.Caption5=ClockPCB.GKO|UserLayerName.Caption6=ClockPCB.GPT|UserLayerName.Caption7=ClockPCB.GPB|UserLayerName.Caption8=ClockPCB.G1|UserLayerName.Caption9=ClockPCB.GM10|UserLayerName.Count=17|UserLayerName.Layer0=16973831|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16973835|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908289|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908303|UserLayerName.Layer15=16777217|UserLayerName.Layer16=16973833|UserLayerName.Layer2=16973830|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908301|UserLayerName.Layer5=16973837|UserLayerName.Layer6=16973848|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16777218|UserLayerName.Layer9=16908298|DocumentPath=C:\Users\Public\Documents\Altium\VFD_Clock_Hardware\PCB\ClockPCB.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1130,136 +1210,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Lib_VFD_Clock.SchLib
-ComponentDesignItemID0=120591-1
-ComponentSymbolReference0=120591-1
+ComponentDesignItemID0=MIPI10 Header
+ComponentSymbolReference0=MIPI10 Header
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Lib_VFD_Clock.SchLib
-ComponentDesignItemID1=ABS06N-32.768kHz-T
-ComponentSymbolReference1=ABS06N-32.768kHz-T
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Lib_VFD_Clock.SchLib
-ComponentDesignItemID2=AP62250WU-7
-ComponentSymbolReference2=AP62250WU-7
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Lib_VFD_Clock.SchLib
-ComponentDesignItemID3=BAT54KFILM
-ComponentSymbolReference3=BAT54KFILM
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Lib_VFD_Clock.SchLib
-ComponentDesignItemID4=ECMF02-2AMX6
-ComponentSymbolReference4=ECMF02-2AMX6
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Lib_VFD_Clock.SchLib
-ComponentDesignItemID5=ESDA25P35-1U1M
-ComponentSymbolReference5=ESDA25P35-1U1M
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=Lib_VFD_Clock.SchLib
-ComponentDesignItemID6=IRFH8324TRPBF
-ComponentSymbolReference6=IRFH8324TRPBF
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Lib_VFD_Clock.SchLib
-ComponentDesignItemID7=IV-6
-ComponentSymbolReference7=IV-6
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=Lib_VFD_Clock.SchLib
-ComponentDesignItemID8=LT8364EMSE#PBF
-ComponentSymbolReference8=LT8364EMSE#PBF
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=Lib_VFD_Clock.SchLib
-ComponentDesignItemID9=MOUNT_HOLE_2MM_CORNER
-ComponentSymbolReference9=MOUNT_HOLE_2MM_CORNER
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Lib_VFD_Clock.SchLib
-ComponentDesignItemID10=NPN
-ComponentSymbolReference10=NPN
-ComponentUpdate10=0
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Lib_VFD_Clock.SchLib
-ComponentDesignItemID11=PMEG6030EP
-ComponentSymbolReference11=PMEG6030EP
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=Lib_VFD_Clock.SchLib
-ComponentDesignItemID12=PNP
-ComponentSymbolReference12=PNP
-ComponentUpdate12=0
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=Lib_VFD_Clock.SchLib
-ComponentDesignItemID13=PTS647SK70SMTR2N_LFS
-ComponentSymbolReference13=PTS647SK70SMTR2N_LFS
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=Lib_VFD_Clock.SchLib
-ComponentDesignItemID14=STM32G0B1CBT6
-ComponentSymbolReference14=STM32G0B1CBT6
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=Lib_VFD_Clock.SchLib
-ComponentDesignItemID15=TCPP01-M12
-ComponentSymbolReference15=TCPP01-M12
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=Lib_VFD_Clock.SchLib
-ComponentDesignItemID16=USB4105-GF-A
-ComponentSymbolReference16=USB4105-GF-A
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=Miscellaneous Connectors.IntLib
-ComponentDesignItemID17=Header 3X2
-ComponentSymbolReference17=Header 3X2
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=Miscellaneous Devices.IntLib
-ComponentDesignItemID18=Cap
-ComponentSymbolReference18=Cap
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=Miscellaneous Devices.IntLib
-ComponentDesignItemID19=Inductor
-ComponentSymbolReference19=Inductor
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=Miscellaneous Devices.IntLib
-ComponentDesignItemID20=Res2
-ComponentSymbolReference20=Res2
-ComponentUpdate20=0
-ComponentIsDeviceSheet20=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1273,194 +1233,30 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Availability
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Code_IEC
+ParameterName3=LatestRevisionDate
 ParameterUpdate3=1
-ParameterName4=Code_JEDEC
+ParameterName4=LatestRevisionNote
 ParameterUpdate4=1
-ParameterName5=Code_JEITA
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=Comment
+ParameterName6=Publisher
 ParameterUpdate6=1
-ParameterName7=Component Kind
-ParameterUpdate7=1
-ParameterName8=Datasheet Link
-ParameterUpdate8=1
-ParameterName9=Description
-ParameterUpdate9=1
-ParameterName10=Height
-ParameterUpdate10=1
-ParameterName11=LatestRevisionDate
-ParameterUpdate11=1
-ParameterName12=LatestRevisionNote
-ParameterUpdate12=1
-ParameterName13=Library Reference
-ParameterUpdate13=1
-ParameterName14=Manufacturer_Name
-ParameterUpdate14=1
-ParameterName15=Manufacturer_Part_Number
-ParameterUpdate15=1
-ParameterName16=MF
-ParameterUpdate16=1
-ParameterName17=Mouser Part Number
-ParameterUpdate17=1
-ParameterName18=Mouser Price/Stock
-ParameterUpdate18=1
-ParameterName19=MP
-ParameterUpdate19=1
-ParameterName20=Package
-ParameterUpdate20=1
-ParameterName21=PackageDescription
-ParameterUpdate21=1
-ParameterName22=PackageReference
-ParameterUpdate22=1
-ParameterName23=PackageVersion
-ParameterUpdate23=1
-ParameterName24=Price
-ParameterUpdate24=1
-ParameterName25=Published
-ParameterUpdate25=1
-ParameterName26=Publisher
-ParameterUpdate26=1
-ParameterName27=Value
-ParameterUpdate27=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0402-A
+ModelName0=MIPI10
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0603
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=120591-1
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=1608[0603]
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=2029
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=ABS06N32768kHzT
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=ESDA25P351U1M
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=GCT_USB4105-GF-A
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=HDR2X3
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=Hole
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=IFDC2020CZER2R2N
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=INDC1608L
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=INDC3216
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=INDC4532
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=IRFH8324TRPBF
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=IV-6
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=J1-0603
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=LT8364EMSEPBF
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=PMEG6030EP115
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=PTS647SK70SMTR2NLFS
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=QFN50P300X300X100-13N-D
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=QFP50P900X900X160-48N
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=SODFL1608X70N
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=SON50P150X170X55-6N-D
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=SOT-23_N
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=SOT-23B_L
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=SOT-23B_M
-ModelUpdate26=1
-ModelType27=PCBLIB
-ModelName27=SOT-23B_N
-ModelUpdate27=1
-ModelType28=PCBLIB
-ModelName28=TSOT26
-ModelUpdate28=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType29=SI
-ModelName29=Cap
-ModelUpdate29=1
-ModelType30=SI
-ModelName30=Connector
-ModelUpdate30=1
-ModelType31=SI
-ModelName31=D Schottky
-ModelUpdate31=1
-ModelType32=SI
-ModelName32=Inductor
-ModelUpdate32=1
-ModelType33=SI
-ModelName33=NPN
-ModelUpdate33=1
-ModelType34=SI
-ModelName34=PNP
-ModelUpdate34=1
-ModelType35=SI
-ModelName35=Res
-ModelUpdate35=1
-ModelTypeGroup2=SIM
-ModelTypeUpdate2=1
-ModelType36=SIM
-ModelName36=CAP
-ModelUpdate36=1
-ModelType37=SIM
-ModelName37=INDUCTOR
-ModelUpdate37=1
-ModelType38=SIM
-ModelName38=NPN
-ModelUpdate38=1
-ModelType39=SIM
-ModelName39=PNP
-ModelUpdate39=1
-ModelType40=SIM
-ModelName40=RESISTOR
-ModelUpdate40=1
-ModelType41=SIM
-ModelName41=SKYDIODE
-ModelUpdate41=1
+ModelType1=SI
+ModelName1=Connector
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
